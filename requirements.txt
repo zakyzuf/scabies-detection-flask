@@ -3,3 +3,4 @@ Werkzeug
 scikit-learn
 matplotlib
 tensorflow
+opencv-python
