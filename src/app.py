@@ -93,7 +93,7 @@ import io
 app = Flask(__name__)
 
 # Load model saat aplikasi start
-model = load_model('scabies_model.h5')
+model = load_model('../models/scabies_model.h5')
 
 def preprocess_image(image):
     # Resize ke 224x224 seperti saat training
