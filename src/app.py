@@ -104,7 +104,7 @@ def preprocess_image(image):
     image = np.expand_dims(image, axis=0)
     return image
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict-first', methods=['POST'])
 def predict():
     try:
         # Terima file gambar dari request
